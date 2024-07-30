@@ -1,0 +1,167 @@
+/* Reset some basic styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 2px 2px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.menu-items li {
+    position: relative;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.menu-items a:hover {
+    color: #007BFF;
+}
+
+/* Submenu styling */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f9fa;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.submenu li {
+    padding: 5px 20px;
+}
+
+.submenu a {
+    color: #000;
+    font-size: 14px;
+}
+
+.submenu a:hover {
+    color: #4d8ed4;
+}
+
+.menu-items li:hover .submenu {
+    display: block;
+}
+
+.menu-search input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+/* Styles for the categories sidebar */
+.categories {
+    width: 200px;
+    padding: 20px;
+    
+    margin-top: -300px;
+}
+
+.categories h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories li {
+    margin-bottom: 10px;
+    border: 1px solid #000; /* Thêm khung đen cho mục danh mục */
+    padding: 10px; /* Thêm khoảng cách bên trong khung */
+}
+.categories-content {
+    border: 1px solid #000; /* Khung đen bao quanh toàn bộ danh mục */
+    padding: 10px; /* Thêm khoảng cách bên trong khung */
+}
+.categories a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.categories a:hover {
+    color: #007BFF;
+}
+
+/* Layout for main content to sit next to the sidebar */
+.main {
+    margin-left: 220px;
+}
+.footer{
+    background-color: wheat;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+    text-align: center; width: 200px;
+    padding: 5px;
+    margin-left: 80%;
+}
+.container1{
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+    text-align: center; width: 200px;
+    padding: 10px;
+    margin-left: 80%;
+    margin-left: 900px;
+    margin-top: -329px;
+}
+.container2{
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+    text-align: center; width: 200px;
+    padding: 10px;
+    margin-left: 590px;
+    margin-top: -329px;
+    
+}
+
+.container3{
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+    text-align: center; width: 200px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: -329px;
+}
+
+
+
+
